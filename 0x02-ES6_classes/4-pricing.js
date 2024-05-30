@@ -31,3 +31,4 @@ export default class Pricing {
     if (typeof amount !== 'number' || typeof conversionRate !== 'number') throw new Error();
     return amount * conversionRate;
   }
+}
